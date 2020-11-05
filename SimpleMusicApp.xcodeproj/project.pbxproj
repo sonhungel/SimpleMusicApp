@@ -13,6 +13,9 @@
 		951A17F72553CE2500A4274C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951A17F52553CE2500A4274C /* Main.storyboard */; };
 		951A17F92553CE2600A4274C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951A17F82553CE2600A4274C /* Assets.xcassets */; };
 		951A17FC2553CE2600A4274C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951A17FA2553CE2600A4274C /* LaunchScreen.storyboard */; };
+		951A18172553DFDC00A4274C /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 951A18142553DFDC00A4274C /* song2.mp3 */; };
+		951A18182553DFDC00A4274C /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 951A18152553DFDC00A4274C /* song3.mp3 */; };
+		951A18192553DFDC00A4274C /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 951A18162553DFDC00A4274C /* song1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		951A17F82553CE2600A4274C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		951A17FB2553CE2600A4274C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		951A17FD2553CE2600A4274C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951A18142553DFDC00A4274C /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = SimpleMusicApp/song2.mp3; sourceTree = SOURCE_ROOT; };
+		951A18152553DFDC00A4274C /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = SimpleMusicApp/song3.mp3; sourceTree = SOURCE_ROOT; };
+		951A18162553DFDC00A4274C /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = SimpleMusicApp/song1.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		951A17EE2553CE2500A4274C /* SimpleMusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				951A18042553D1C700A4274C /* Audio */,
 				951A17EF2553CE2500A4274C /* AppDelegate.swift */,
 				951A17F12553CE2500A4274C /* SceneDelegate.swift */,
 				951A17F32553CE2500A4274C /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				951A17FD2553CE2600A4274C /* Info.plist */,
 			);
 			path = SimpleMusicApp;
+			sourceTree = "<group>";
+		};
+		951A18042553D1C700A4274C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				951A18162553DFDC00A4274C /* song1.mp3 */,
+				951A18142553DFDC00A4274C /* song2.mp3 */,
+				951A18152553DFDC00A4274C /* song3.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951A18172553DFDC00A4274C /* song2.mp3 in Resources */,
+				951A18192553DFDC00A4274C /* song1.mp3 in Resources */,
 				951A17FC2553CE2600A4274C /* LaunchScreen.storyboard in Resources */,
+				951A18182553DFDC00A4274C /* song3.mp3 in Resources */,
 				951A17F92553CE2600A4274C /* Assets.xcassets in Resources */,
 				951A17F72553CE2500A4274C /* Main.storyboard in Resources */,
 			);
