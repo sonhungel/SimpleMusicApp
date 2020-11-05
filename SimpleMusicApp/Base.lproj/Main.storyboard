@@ -65,6 +65,39 @@
             </objects>
             <point key="canvasLocation" x="1044.9275362318842" y="81.521739130434796"/>
         </scene>
+        <!--Player View Controller-->
+        <scene sceneID="VMm-1d-aOe">
+            <objects>
+                <viewController storyboardIdentifier="player" id="EVe-6R-GT5" customClass="PlayerViewController" customModule="SimpleMusicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g9z-vb-kMW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZ8-hC-Cik">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Z30-j8-UIb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z30-j8-UIb" firstAttribute="bottom" secondItem="BZ8-hC-Cik" secondAttribute="bottom" id="8hL-Bg-Xm5"/>
+                            <constraint firstItem="Z30-j8-UIb" firstAttribute="trailing" secondItem="BZ8-hC-Cik" secondAttribute="trailing" id="ATS-J1-arr"/>
+                            <constraint firstItem="BZ8-hC-Cik" firstAttribute="leading" secondItem="Z30-j8-UIb" secondAttribute="leading" id="VzT-J4-Zzl"/>
+                            <constraint firstItem="BZ8-hC-Cik" firstAttribute="top" secondItem="Z30-j8-UIb" secondAttribute="top" id="jUQ-KO-tcT"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="holder" destination="BZ8-hC-Cik" id="sIc-kp-Ffj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bf-1N-WLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="82"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="4vh-Jr-Yh9">
             <objects>
