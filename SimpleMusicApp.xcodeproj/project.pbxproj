@@ -16,6 +16,7 @@
 		951A18172553DFDC00A4274C /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 951A18142553DFDC00A4274C /* song2.mp3 */; };
 		951A18182553DFDC00A4274C /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 951A18152553DFDC00A4274C /* song3.mp3 */; };
 		951A18192553DFDC00A4274C /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 951A18162553DFDC00A4274C /* song1.mp3 */; };
+		951A181C2553E0E600A4274C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A181B2553E0E600A4274C /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		951A18142553DFDC00A4274C /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = SimpleMusicApp/song2.mp3; sourceTree = SOURCE_ROOT; };
 		951A18152553DFDC00A4274C /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = SimpleMusicApp/song3.mp3; sourceTree = SOURCE_ROOT; };
 		951A18162553DFDC00A4274C /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = SimpleMusicApp/song1.mp3; sourceTree = SOURCE_ROOT; };
+		951A181B2553E0E600A4274C /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				951A17EF2553CE2500A4274C /* AppDelegate.swift */,
 				951A17F12553CE2500A4274C /* SceneDelegate.swift */,
 				951A17F32553CE2500A4274C /* ViewController.swift */,
+				951A181B2553E0E600A4274C /* PlayerViewController.swift */,
 				951A17F52553CE2500A4274C /* Main.storyboard */,
 				951A17F82553CE2600A4274C /* Assets.xcassets */,
 				951A17FA2553CE2600A4274C /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				951A17F42553CE2500A4274C /* ViewController.swift in Sources */,
+				951A181C2553E0E600A4274C /* PlayerViewController.swift in Sources */,
 				951A17F02553CE2500A4274C /* AppDelegate.swift in Sources */,
 				951A17F22553CE2500A4274C /* SceneDelegate.swift in Sources */,
 			);

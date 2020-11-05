@@ -103,9 +103,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         let position = indexPath.row
         
-        guard let vc = storyboard?.instantiateViewController(identifier: "player") else {
+        guard let vc = storyboard?.instantiateViewController(identifier: "player") as? PlayerViewController else {
             return
         }
+        
+        vc.songs = self.songs
+        vc.position = position
         
         present(vc, animated: true)
     }
